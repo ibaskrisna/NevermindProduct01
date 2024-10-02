@@ -21,7 +21,7 @@ const config: Config = {
       },
       fontFamily: {
         'edensor': ['edensor-reguler', 'san-serif'],
-        'belgiano-serif': ['belgiano-serif', 'san-serif'],
+        belgiano: ["var(--font-belgiano)"],
         'abigail': ['abigail', 'san-serif'],
       }
     },

@@ -1,8 +1,24 @@
+@import '/public/font/font.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* Fix untuk layar besar dengan DPR tinggi (seperti laptop) saat diatur ke mode mobile */
+@media (min-width: 1024px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .bg-cover-1 {
+    background-attachment: scroll !important; /* Ubah ke scroll untuk laptop */
+  }
+}
+
+/* Untuk perangkat mobile sebenarnya (iPhone, Android) */
+@media (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .bg-cover-1 {
+    background-attachment: fixed !important; /* Tetap fixed pada mobile devices */
+    background-size: cover !important;
+    background-position: center !important;
+  }
+}
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +46,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */

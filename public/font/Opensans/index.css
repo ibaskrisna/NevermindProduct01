@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'edensor-reguler';
+    src: url('Edensor-FREE.otf') format ('otf');
+}
+
+@font-face {
+    font-family: 'belgiano-serif';
+    src: url('Belgiano_Serif.ttf') format ('ttf');
+}
+
+@font-face {
+    font-family: 'abigail';
+    src: url('Abigail.ttf') format ('ttf');
+}

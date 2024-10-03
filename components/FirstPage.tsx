@@ -14,11 +14,11 @@ const FirstPage = () => {
               <h1 className="text-gray-900">
                 <img src="/images/gcover.png" alt='photo'></img>
               </h1>
-              <h2 className='text-white text-start text-[12px] mt-2'>The Groom</h2>
-              <h1 className='text-white text-start text-[28px]'>Yoga Adi Krisna</h1>
-              <p className='text-white text-start text-[16px] italic'>First Child of Two Siblings</p>
-              <p className='text-white text-start text-[14px] mt-2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consectetur repellat blanditiis modi quaerat quam minus, incidunt error itaque omnis?</p>
-              <p className='text-white text-start text-[9px] mt-2'>@yogakokkrisna</p>
+              <h2 className='text-white text-start text-[12px] mt-2 font-belgiano'>The Groom</h2>
+              <h1 className='text-white text-start text-[28px] font-edensor'>Yoga Adi Krisna</h1>
+              <p className='text-white text-start text-[16px] italic font-edensor'>First Child of Two Siblings</p>
+              <p className='text-white text-start text-[14px] mt-2 font-sans'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consectetur repellat blanditiis modi quaerat quam minus, incidunt error itaque omnis?</p>
+              <p className='text-white text-start text-[9px] mt-2 font-sans'>@yogakokkrisna</p>
             </div>
           </div>
         </div>

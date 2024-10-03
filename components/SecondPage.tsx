@@ -14,11 +14,11 @@ const SecondPage = () => {
                             <h1 className="text-gray-900">
                                 <img src="/images/bcover.png" alt='photo'></img>
                             </h1>
-                            <h2 className='text-white text-end text-[12px] mt-2'>The Bride</h2>
-                            <h1 className='text-white text-end text-[28px]'>Irma Pradnyani</h1>
-                            <p className='text-white text-end text-[16px] italic'>Second Child of Three Siblings</p>
-                            <p className='text-white text-end text-[14px] mt-2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consectetur repellat blanditiis modi quaerat quam minus, incidunt error itaque omnis?</p>
-                            <p className='text-white text-end text-[9px] mt-2'>@ewmaaa</p>
+                            <h2 className='text-white text-end text-[12px] mt-2 font-belgiano'>The Bride</h2>
+                            <h1 className='text-white text-end text-[28px] font-edensor'>Irma Pradnyani</h1>
+                            <p className='text-white text-end text-[16px] italic font-edensor'>Second Child of Three Siblings</p>
+                            <p className='text-white text-end text-[14px] mt-2 font-sans'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consectetur repellat blanditiis modi quaerat quam minus, incidunt error itaque omnis?</p>
+                            <p className='text-white text-end text-[9px] mt-2 font-sans'>@ewmaaa</p>
                         </div>
                     </div>
                 </div>

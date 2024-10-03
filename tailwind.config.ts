@@ -20,9 +20,10 @@ const config: Config = {
         'center': 'center',
       },
       fontFamily: {
-        'edensor': ['edensor-reguler', 'san-serif'],
+        edensor: ["var(--font-edensor)"],
         belgiano: ["var(--font-belgiano)"],
-        'abigail': ['abigail', 'san-serif'],
+        oldscientific : ["var(--font-oldscientific)"],
+        abigail : ["var(--font-abigail)"],
       }
     },
   },

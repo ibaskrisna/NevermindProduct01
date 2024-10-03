@@ -14,6 +14,16 @@ const belgiano = localFont({
   display: 'swap', // opsional
 });
 
+const abigail = localFont({
+  src: [
+    {
+      path: '../public/font/Opensans/Abigail.ttf', // gunakan path absolut
+    },
+  ],
+  variable: '--font-abigail',
+  display: 'swap', // opsional
+});
+
 const edensor = localFont({
   src: [
     {
@@ -24,9 +34,19 @@ const edensor = localFont({
   display: 'swap', // opsional
 });
 
+const oldscientific = localFont({
+  src: [
+    {
+      path: '../public/font/Opensans/OldScientificIllustration.ttf', // gunakan path absolut
+    },
+  ],
+  variable: '--font-oldscientific',
+  display: 'swap', // opsional
+});
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${belgiano.variable} ${edensor.variable}`}>
+    <div className={`${belgiano.variable} ${abigail.variable} ${edensor.variable} ${oldscientific.variable}`}>
       <Component {...pageProps} />
     </div>
   );

@@ -7,7 +7,7 @@ const SixthPage = () => {
             <div className="absolute inset-0  bg-[#363636] opacity-60"></div>
 
             {/* Content */}
-            <div className="m-10 relative w-screen" >
+            <div className="m-10 mt-[-350px] relative w-screen" >
                 <div className="row">
                     <div className="col-md-8">
                         <div className="">

@@ -16,7 +16,7 @@ const FourthPage = () => {
                         <div className="">
                             <div className=''>
                                 <hr className='text-white' />
-                                <h1 className='text-white text-[30px] mt-6 mb-2 font-edensor'>Pewiwahan</h1>
+                                <h1 className='text-white text-[30px] mt-6 mb-2 font-edensor'>Pawiwahan</h1>
                                 <p className='text-white'>Monday, 10 September 2024</p>
                                 <p className='text-white'>at 09.00 WITA-Selesai</p>
                                 <p className='text-white text-[12px] pt-2'> Jl. Matahari Terbit No.3, Sanur, Denpasar Selatan, Kota Denpasar, Bali </p>

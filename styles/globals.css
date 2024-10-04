@@ -18,6 +18,11 @@
     background-position: center !important;
   }
 }
+
+.body-thin-font {
+  font-family: var(--font-edensor);
+  font-weight: 100;
+}
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
